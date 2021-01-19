@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="db">
-      <UniqueIdentifier>{6e059cc5-3a5b-4ee1-b097-3e2b580d3987}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -51,10 +48,5 @@
     <Image Include="app.ico">
       <Filter>Ressourcendateien</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\Downloads\students.sql">
-      <Filter>db</Filter>
-    </None>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.vcxprojAssemblyReference.cache
-C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.Form1.resources
-C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.vcxproj.GenerateResource.cache
 C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Debug\Student_CRUD.exe.config
 C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.exe.config
+C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.Form1.resources
+C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.vcxproj.GenerateResource.cache
 C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.vcxproj.CopyComplete
+C:\Users\HP\Desktop\Adesoye Abeeb\Cpp DBMS\Student_CRUD\Student_CRUD\Debug\Student_CRUD.vcxprojAssemblyReference.cache

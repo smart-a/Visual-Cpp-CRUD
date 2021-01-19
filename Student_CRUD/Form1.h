@@ -56,6 +56,8 @@ namespace CppCLRWinformsProjekt {
 	private: System::Windows::Forms::Button^ btnUpdate;
 	private: System::Windows::Forms::Button^ btnDelete;
 	private: System::Windows::Forms::Button^ btnReset;
+	private: System::Windows::Forms::Button^ btnPrint;
+	private: System::Windows::Forms::Button^ btnPrintAll;
 	protected:
 
 
@@ -93,6 +95,8 @@ namespace CppCLRWinformsProjekt {
 			this->btnUpdate = (gcnew System::Windows::Forms::Button());
 			this->btnDelete = (gcnew System::Windows::Forms::Button());
 			this->btnReset = (gcnew System::Windows::Forms::Button());
+			this->btnPrint = (gcnew System::Windows::Forms::Button());
+			this->btnPrintAll = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// label1
@@ -324,11 +328,37 @@ namespace CppCLRWinformsProjekt {
 			this->btnReset->UseVisualStyleBackColor = true;
 			this->btnReset->Click += gcnew System::EventHandler(this, &Form1::btnReset_Click);
 			// 
+			// btnPrint
+			// 
+			this->btnPrint->Font = (gcnew System::Drawing::Font(L"Trebuchet MS", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnPrint->Location = System::Drawing::Point(457, 200);
+			this->btnPrint->Name = L"btnPrint";
+			this->btnPrint->Size = System::Drawing::Size(75, 33);
+			this->btnPrint->TabIndex = 10;
+			this->btnPrint->Text = L"Print";
+			this->btnPrint->UseVisualStyleBackColor = true;
+			this->btnPrint->Click += gcnew System::EventHandler(this, &Form1::btnPrint_Click);
+			// 
+			// btnPrintAll
+			// 
+			this->btnPrintAll->Font = (gcnew System::Drawing::Font(L"Trebuchet MS", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnPrintAll->Location = System::Drawing::Point(457, 250);
+			this->btnPrintAll->Name = L"btnPrintAll";
+			this->btnPrintAll->Size = System::Drawing::Size(75, 33);
+			this->btnPrintAll->TabIndex = 11;
+			this->btnPrintAll->Text = L"Print all";
+			this->btnPrintAll->UseVisualStyleBackColor = true;
+			this->btnPrintAll->Click += gcnew System::EventHandler(this, &Form1::btnPrint_Click);
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(544, 409);
+			this->Controls->Add(this->btnPrintAll);
+			this->Controls->Add(this->btnPrint);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->cbSex);
 			this->Controls->Add(this->txtBalance);
@@ -604,6 +634,9 @@ namespace CppCLRWinformsProjekt {
 
 	private: System::Void btnReset_Click(System::Object^ sender, System::EventArgs^ e) {
 		reset();
+	}
+	private: System::Void btnPrint_Click(System::Object^ sender, System::EventArgs^ e) {
+		MessageBox::Show(this, "Printer error, cannot find printer", this->Text);
 	}
 };
 }
